@@ -11,6 +11,9 @@ devDependencies:
   textlint-rule-ja-no-orthographic-variants:
     specifier: ^2.0.0
     version: 2.0.0
+  textlint-rule-jis-charset:
+    specifier: ^0.1.0
+    version: 0.1.0
 
 packages:
 
@@ -1147,6 +1150,10 @@ packages:
     resolution: {integrity: sha512-Pafp97l4HaNiCpGqEHhJ6G4OQN7+P0nk8vuWW7muz5OGw09xs5u88m03q+K3iLyI5Q7gMHNYUKM6Ld3yRF0wew==}
     dependencies:
       kuromojin: 3.0.0
+    dev: true
+
+  /textlint-rule-jis-charset@0.1.0:
+    resolution: {integrity: sha512-gbqlPA4KYQTermHGeZzm2B3ZpGzv9Nv+ycwfnpeZdjUKtNunNdk1ndq3d65M6IFkicwqPcMvPb2fugj62WvZig==}
     dev: true
 
   /textlint@13.4.1:
