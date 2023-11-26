@@ -1,5 +1,7 @@
 {
   "plugins": {},
   "filters": {},
-  "rules": {}
+  "rules": {
+    "ja-no-orthographic-variants": true
+  }
 }
