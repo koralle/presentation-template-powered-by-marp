@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "markdownlint-cli2": "^0.11.0",
     "textlint": "^13.4.1",
     "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
     "textlint-rule-jis-charset": "^0.1.0",
