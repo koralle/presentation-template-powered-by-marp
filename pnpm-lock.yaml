@@ -8,6 +8,9 @@ devDependencies:
   '@marp-team/marp-cli':
     specifier: ^3.4.0
     version: 3.4.0
+  dart-sass:
+    specifier: ^1.25.0
+    version: 1.25.0
   markdownlint-cli2:
     specifier: ^0.11.0
     version: 0.11.0
@@ -814,6 +817,15 @@ packages:
 
   /cssfilter@0.0.10:
     resolution: {integrity: sha512-FAaLDaplstoRsDR8XGYH51znUN0UY7nMc6Z9/fvE8EXGwvJE9hu7W2vHwx1+bd6gCYnln9nLbzxFTrcO9YQDZw==}
+    dev: true
+
+  /dart-sass@1.25.0:
+    resolution: {integrity: sha512-syNOAstJXAmvD3RifcDk3fiPMyYE2fY8so6w9gf2/wNlKpG0zyH+oiXubEYVOy1WAWkzOc72pbAxwx+3OU4JJA==}
+    engines: {node: '>=8.9.0'}
+    deprecated: This package has been renamed to 'sass'.
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
     dev: true
 
   /data-uri-to-buffer@6.0.1:

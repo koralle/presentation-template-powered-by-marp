@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "marp --server ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@marp-team/marp-cli": "^3.4.0",
+    "dart-sass": "^1.25.0",
     "markdownlint-cli2": "^0.11.0",
     "textlint": "^13.4.1",
     "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
