@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:css": "run-s -c css:*",
-    "css:sass": "dart-sass styles/scss/*.scss styles/css/*.css",
-    "css:postcss": "postcss styles/css/*.css -o styles/css/*.css"
+    "watch": "run-p watch:*",
+    "watch:css": "onchange styles/scss/*.scss -- pnpm run dev:css",
+    "css:sass": "sass styles/scss:styles/css",
+    "css:postcss": "postcss --replace styles/css/*.css"
   },
   "keywords": [],
   "author": "",
