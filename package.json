@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "marp --server ./src"
+    "dev": "run-p dev:*",
+    "dev:css": "run-s -c css:*",
+    "css:sass": "dart-sass styles/scss/*.scss styles/css/*.css",
+    "css:postcss": "postcss styles/css/*.css -o styles/css/*.css"
   },
   "keywords": [],
   "author": "",
