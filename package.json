@@ -14,6 +14,7 @@
     "dart-sass": "^1.25.0",
     "markdownlint-cli2": "^0.11.0",
     "postcss": "^8.4.32",
+    "postcss-cli": "^10.1.0",
     "textlint": "^13.4.1",
     "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
     "textlint-rule-jis-charset": "^0.1.0",
