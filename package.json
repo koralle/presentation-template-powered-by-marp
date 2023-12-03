@@ -8,6 +8,7 @@
     "dev:css": "run-s -c css:*",
     "watch": "run-p watch:*",
     "watch:css": "onchange styles/scss/*.scss -- pnpm run dev:css",
+    "css:stylelint": "stylelint styles/scss/*.scss --fix",
     "css:sass": "sass styles/scss:styles/css",
     "css:postcss": "postcss --replace styles/css/*.css"
   },
@@ -28,6 +29,6 @@
     "textlint": "^13.4.1",
     "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
     "textlint-rule-jis-charset": "^0.1.0",
-    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+    "textlint-rule-preset-ja-technical-writing": "^9.0.0"
   }
 }
