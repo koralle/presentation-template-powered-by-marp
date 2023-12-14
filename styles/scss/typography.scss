@@ -1,0 +1,53 @@
+$font-color-normal: #3d3d3d;
+$font-size-base: 10px;
+
+@use "./functions.scss";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;700&family=Noto+Serif+JP:wght@200;400;700&display=swap";
+
+:root {
+  color: $font-color-normal;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+
+section {
+  header {
+    font-size: calcfontsizerem(2.0rem);
+  }
+
+  h1 {
+    font-size: calcfontsizerem(2.0rem);
+    line-height: calcfontsizerem(3.2rem);
+
+    span.shell {
+      font-size: calcfontsizerem(2.0rem);
+      line-height: calcfontfizerem(3.2rem);
+      color: red;
+    }
+  }
+
+  h2 {
+    font-size: calcfontsizerem(2.0rem);
+    line-height: calcfontsizerem(2.4rem);
+  }
+
+  p {
+    font-size: calcfontsizerem(2.0rem);
+  }
+
+  li {
+    font-size: calcfontsizerem(2.0rem);
+    line-height: calcfontsizerem(2.8rem);
+  }
+
+  footer {
+    font-size: calcfontsizerem(2.0rem);
+  }
+}
+
+section.title {
+  h1 {
+    font-size: calcfontsizerem(3.2rem);
+    line-height: calcfontsizerem(4.0rem);
+  }
+}
