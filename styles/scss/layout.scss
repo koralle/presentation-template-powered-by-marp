@@ -1,0 +1,45 @@
+:root {
+  padding: 2% 2% 1%;
+  background-color: #eee;
+}
+
+section.title {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+section.page {
+  display: grid;
+  grid-auto-flow: row;
+  text-align: left;
+
+  h1 {
+    height: min-content;
+    padding: 0.8rem 0;
+    margin: 0;
+    margin-bottom: 0.2rem;
+    background-image: linear-gradient(90deg, #b2d5de 0 10%, #dedede 10%);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: bottom;
+  }
+
+  h2 {
+    height: min-content;
+    align-self: start;
+  }
+
+  header {
+    height: min-content;
+  }
+
+  ul {
+    height: min-content;
+  }
+
+  footer {
+    height: min-content;
+    align-self: end;
+  }
+}
